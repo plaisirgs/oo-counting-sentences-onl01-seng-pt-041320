@@ -25,7 +25,7 @@ class String
   end
 
     def count_sentences
-      self.paragraph.split(/[\.\?\!]/)
+      self.paragraph.split(/[\.\?\!]/).count
     end
 end
 
